@@ -1,0 +1,19 @@
+main{
+    num x: 12;
+    num k: 23239;
+    
+    imp("advinhe o numero");
+    
+    (k>x)->{
+        (x!=k)->{
+            c(k!=x e k!=23239){
+                imp("tente novamente");
+            }
+
+            le(num k);
+            c(k = 12){
+                imp("Parabens, voce acertou!!");
+            }
+        }
+    }
+}

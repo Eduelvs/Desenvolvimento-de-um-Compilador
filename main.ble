@@ -1,0 +1,31 @@
+main{
+
+    'Atribuicao de valores para as variaveis'
+    num i: 1;
+    num j: 7;
+    vf verifica: F;
+    vet vetor[3]: [1 2 3];
+
+    'Cria variaveis de texto'
+    txt texto: "Ola mundo";
+    txt nome;
+
+    'Imprime o valor de texto'
+    imp("O valor de texto eh: " + texto);
+    
+    imp("Insira seu nome: ");
+    le(txt nome);    
+    
+    'Verifica se o nome da pessoa é Thaty ou Thatyana'
+    c(nome = "Thaty" ou nome = "Thatyana"){
+        imp(nome + ", insira um novo valor para texto: ");
+    }cnn{
+        imp("Insira um novo valor para texto: ");
+    }
+
+    'Imprimindo varias vezes a variavel texto'
+    le(txt texto);
+    pra(i 11 1){
+        imp(i + ": " + texto);
+    }
+}
